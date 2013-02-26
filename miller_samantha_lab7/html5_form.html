@@ -6,15 +6,65 @@
 	</head>
 	
 	<form>
-		<h1>Form</h1>
+		<h1>HTML5 Form Elements and Attributes</h1>
 		
-		Email: <input type="email" name="email_address" value="lab@example.com"/>
+		<p>
+			Email: <input type="email" name="email_address" placeholder="sample@example.com" size="30" autofocus="autofocus" required="required"/>
+		</p>
+		
+		<p>
+			Phone Number: <input type="tel" name="phone" placeholder="(xxx)xxx-xxxx" required="required"/>
+		</p>
+		
+		<p>	
+			Your Favorite Website: <input type="url" name="website" placeholder="http://omfgdogs.com/" size="30"/>
+		</p>
+		
+		
+		<p>
+			Search: <input type="search" name="search" placeholder="Search Website"/>
+		</p>
+		
+		<p>
+			Choose a Color: <input type="color" name="choose_color"/>
+		</p>
+		
+		<p>
+			<input type="range" name="amount"/>
+		</p>
+		
+		<p>
+			<input type="number" name="number" placeholder="178"/>
+		</p>		
+		
+		<p>
+			<input type="date" name="date"/>
+		</p>
+		
+		<p>
+			<input type="time" name="time"/>
+		</p>
+		
+		<p>
+			Insert Hair Color
+			<input type="text" list="data" placeholder="Start Typing Here">
+			<datalist id="data">
+				<option lable="Blo" value="Blonde">
+				<option lable="R" value="Red">
+				<option lable="Bla" value="Black">
+				<option lable="Br" value="Brown">
+				<option lable="O" value="Other">
+			</datalist>
+		</p>							
 	
+		<p>
+		Progress: 
+		<progress value="60" max="100">60%</progress>	
+		</p>
 	
-	
-	
-	
-	
+		<p>
+		<input type ="Submit" name ="Submitbutton" value="Submit"/>
+		</p>
 	
 	
 	
