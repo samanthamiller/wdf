@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+
+		<title>90's Disney Movies</title>
+		<link>http://samanthamiller.github.com/wdf/miller_samantha_lab7/rss_link.html</link>
+		<description>An RSS feed about Disney Movies in the 90's</description>
+	
+			<item>
+				<title>A Bug's Life</title>
+				<link>http://www.imdb.com/title/tt0120623/</link>
+				<description>A movie about a bunch of little ants that try to escape the rule of evil grasshoppers.</description>
+			</item>	
+		
+			<item>
+				<title>The Lion King</title>
+				<link>http://www.imdb.com/title/tt0110357/?ref_=sr_1</link>
+				<description>A brave little lion cub goes through inner battles in order to find his meaning in life.</description>
+			</item>	
+		
+			<item>
+				<title>Tarzan</title>
+				<link>http://www.imdb.com/title/tt0120855/?ref_=sr_1</link>
+				<description>The touching story of a city girl and a wild man finding love in the strangest of places.</description>
+			</item>	
+		
+			<item>
+				<title>The Parent Trap</title>
+				<link>http://www.imdb.com/title/tt0120783/?ref_=sr_1</link>
+				<description>Two young girls get more than they bargin for when each is sent to a summer camp and find out they have a twin. How will it play out for these girls?</description>
+			</item>	
+
+	</channel>
+</rss>
