@@ -6,12 +6,12 @@
 	</head>
 	
 		<form>
-		First Name:
-		<input type="text" name="firstname" value="i.e Busan"/>
+		<label for="first_name">First Name:</label>
+		<input type="text" name="firstname" value="i.e Busan" id="first_name"/>
 		<br>
 		
-		Last Name:
-		<input type="text" name= "lastname" value="i.e Srown"/>
+		<label for="last_name">Last Name:</label>
+		<input type="text" name= "lastname" value="i.e Srown" id="last_name"/>
 		
 		<br>
 		<p>
@@ -25,15 +25,18 @@
 		</select>
 		</p>
 		
-		Male <input type ="radio" name ="Gender" value="male"/> Female <input type ="radio" name ="Gender" value="female"/>
+		<label for="male">Male</label> 
+		<input type ="radio" name ="Gender" value="male"/> Female <input type ="radio" name ="Gender" value="female" id="male"/>
 		
 		<br>
+		<fieldset>
 		
-		Languages I know:
-		HTML<input type ="checkbox" name="HTML" value="HTML"/>
-		CSS<input type ="checkbox" name ="CSS" value="CSS"/>
-		JavaScript<input type="checkbox" name="JavaScript" value="JavaScript"/>
-		None Listed<input type ="checkbox" name= "None Listed" value="None Listed"/>
+		<legend>Languages I know:</legend>
+		<label for="HTML">HTML</label><input type ="checkbox" name="HTML" value="HTML" id="HTML"/>
+		<label for="CSS">CSS</label><input type ="checkbox" name ="CSS" value="CSS" id="CSS"/>
+		<label for="JavaScript">JavaScript</label><input type="checkbox" name="JavaScript" value="JavaScript" id="JavaScript"/>
+		<label for="None_Listed">None Listed</label><input type ="checkbox" name= "None Listed" value="None Listed" id="None_Listed"/>
+		</fieldset>
 		
 		<br>
 		
@@ -43,6 +46,6 @@
 		
 		<br>
 		
-		<input type ="Submit" name ="Submitbutton" value="Submit"/>
+		<label for="Submit"><input type ="Submit" name ="Submitbutton" value="Submit" id="Submit"/></label>
 		
 		</form>
